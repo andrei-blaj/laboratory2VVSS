@@ -14,7 +14,7 @@ public class App
 
         StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
         TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/teme.xml");
-        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/note.xml");
+        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/note5.xml");
 
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
         UI consola = new UI(service);

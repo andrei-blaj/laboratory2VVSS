@@ -12,4 +12,8 @@
 <Nume>Ion</Nume>
 <Grupa>227</Grupa>
 </student>
+<student ID="7">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
 </Entitati>

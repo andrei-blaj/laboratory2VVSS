@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/LabAssiAsseRequirements .pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/ana.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/HasID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Tema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/maria.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/note.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/CRUDRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/NotaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/StudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/TemaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/vasile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_931_Lab2_BobBlaj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_931_Lab2_BobBlaj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/931_Lab2_BobBlajMV/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/931_Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,61 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentXMLRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="615">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaFileRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaXMLRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,34 +42,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/service/Service.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1191">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="164">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentFileRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/CRUDRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -163,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,6 +84,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>studenti.xml</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -198,9 +114,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/TemaValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/NotaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentXMLRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractFileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/CRUDRepository.java" />
@@ -208,12 +122,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentFileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaFileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaXMLRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" />
       </list>
     </option>
   </component>
@@ -315,6 +232,32 @@
               <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -324,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553073381305" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553074928345" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -344,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2_BobBlajMV.App" />
       <module name="_931_Lab2_BobBlaj" />
@@ -358,8 +301,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_931_Lab2_BobBlaj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2_BobBlajMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2_BobBlajMV" />
+      <option name="MAIN_CLASS_NAME" value="Lab2_BobBlajMV.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -375,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553070923034</updated>
       <workItem from="1553070924354" duration="243000" />
-      <workItem from="1553071183472" duration="1995000" />
+      <workItem from="1553071183472" duration="3600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2238000" />
+    <option name="totallyTimeSpent" value="3843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
@@ -394,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12599319" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,7 +363,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295583" />
       <window_info anchor="right" id="Maven-2 Build" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -508,40 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/CRUDRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -559,40 +484,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,30 +527,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaXMLRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="217">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="-258">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -641,17 +579,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1191">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="205">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/CRUDRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
