@@ -1,4 +1,4 @@
-package 931_Lab2_BobBlajMV;
+package Lab2_BobBlajMV;
 
 import static org.junit.Assert.assertTrue;
 
