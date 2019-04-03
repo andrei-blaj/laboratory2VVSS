@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment=".">
+    <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
+            <state relative-caret-position="150">
+              <caret line="70" column="77" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,13 +264,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554279966401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554280161587" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -331,7 +338,7 @@
       <workItem from="1553070924354" duration="243000" />
       <workItem from="1553071183472" duration="4223000" />
       <workItem from="1553762873469" duration="457000" />
-      <workItem from="1554276261649" duration="3565000" />
+      <workItem from="1554276261649" duration="3687000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1554279400125</created>
@@ -340,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554279400126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final commit lab 3">
+      <created>1554279982301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554279982301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -376,7 +390,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8488000" />
+    <option name="totallyTimeSpent" value="8610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
@@ -420,7 +434,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PULA" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="final commit lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit lab 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -662,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
+        <state relative-caret-position="150">
+          <caret line="70" column="77" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
