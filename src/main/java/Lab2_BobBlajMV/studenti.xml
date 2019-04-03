@@ -8,11 +8,19 @@
 <Nume>Maria</Nume>
 <Grupa>222</Grupa>
 </student>
+<student ID="abc">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
 <student ID="4">
 <Nume>Ion</Nume>
 <Grupa>227</Grupa>
 </student>
 <student ID="7">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="-">
 <Nume>Bob</Nume>
 <Grupa>931</Grupa>
 </student>
