@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="70" column="77" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
+            <state relative-caret-position="39">
+              <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="161" selection-start-line="16" selection-start-column="161" selection-end-line="16" selection-end-column="161" />
+            <state relative-caret-position="345">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +128,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>note5</find>
+      <find>../../../main/java/Lab2_BobBlajMV/teme.xml</find>
+      <find>$PROJECT_DIR$/teme.xml</find>
+      <find>$PROJECT_DIR$/teme.xm</find>
+      <find>teme.xml</find>
       <find>studenti.xml</find>
     </findStrings>
   </component>
@@ -171,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/console/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractCRUDRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" />
       </list>
     </option>
   </component>
@@ -264,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554280161587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554280400388" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -338,7 +341,7 @@
       <workItem from="1553070924354" duration="243000" />
       <workItem from="1553071183472" duration="4223000" />
       <workItem from="1553762873469" duration="457000" />
-      <workItem from="1554276261649" duration="3687000" />
+      <workItem from="1554276261649" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1554279400125</created>
@@ -354,16 +357,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554279982301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final commit lab 3 - 1">
+      <created>1554280177098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554280177098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.03.20 at 11h 43m 54s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.03.20 at 11h 44m 14s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.03.20 at 11h 44m 24s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -388,9 +392,15 @@
     <history-entry file="AppTest - 2019.04.03 at 10h 44m 48s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.04.03 at 11h 28m 45s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.03 at 11h 29m 23s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8610000" />
+    <option name="totallyTimeSpent" value="8854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
@@ -435,7 +445,8 @@
     <MESSAGE value="PULA" />
     <MESSAGE value="." />
     <MESSAGE value="final commit lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit lab 3" />
+    <MESSAGE value="final commit lab 3 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit lab 3 - 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -623,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="161" selection-start-line="16" selection-start-column="161" selection-end-line="16" selection-end-column="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/AbstractXMLRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
@@ -677,8 +678,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="70" column="77" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
+        <state relative-caret-position="39">
+          <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
