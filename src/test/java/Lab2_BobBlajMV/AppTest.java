@@ -68,7 +68,7 @@ public class AppTest
             }
         };
 
-        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/teme.xml");
+        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "../../../main/java/Lab2_BobBlajMV/teme.xml");
         fileRepository.save(assignment);
 
         Tema tema = fileRepository.findOne("6");
@@ -89,7 +89,7 @@ public class AppTest
             }
         };
 
-        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/teme.xml");
+        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "../../../main/java/Lab2_BobBlajMV/teme.xml");
         fileRepository.save(assignment);
         fileRepository.save(assignmentSecond);
 

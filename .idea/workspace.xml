@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment="">
+    <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2_BobBlajMV/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab2_BobBlajMV/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="40" column="172" selection-start-line="40" selection-start-column="160" selection-end-line="40" selection-end-column="172" />
+            <state relative-caret-position="341">
+              <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,51 +229,6 @@
               <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
               <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2_BobBlajMV" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_931_Lab2_BobBlaj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_931_Lab2_BobBlaj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554279370481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554279966401" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -380,8 +331,16 @@
       <workItem from="1553070924354" duration="243000" />
       <workItem from="1553071183472" duration="4223000" />
       <workItem from="1553762873469" duration="457000" />
-      <workItem from="1554276261649" duration="2921000" />
+      <workItem from="1554276261649" duration="3565000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1554279400125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554279400126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -417,13 +376,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7844000" />
+    <option name="totallyTimeSpent" value="8488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24786325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,7 +399,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3291714" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3291714" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3291714" />
       <window_info anchor="right" id="Maven-2 Build" order="0" />
@@ -457,6 +416,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PULA" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -698,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" column="172" selection-start-line="40" selection-start-column="160" selection-end-line="40" selection-end-column="172" />
+        <state relative-caret-position="341">
+          <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
