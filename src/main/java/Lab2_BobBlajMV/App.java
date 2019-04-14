@@ -14,17 +14,17 @@ public class App
 //        Validator<Nota> notaValidator = new NotaValidator();
 //
 //        StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
-//        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/teme.xml");
-//        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/note2.xml");
+//        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/test/java/Lab2_BobBlajMV/teme.xml");
+//        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/note.xml");
 //
 //        Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 //        UI consola = new UI(service);
 //        consola.run();
 
-        //PENTRU GUI
-        // de avut un check: daca profesorul introduce sau nu saptamana la timp
-        // daca se introduce nota la timp, se preia saptamana din sistem
-        // altfel, se introduce de la tastatura
+//        PENTRU GUI
+//         de avut un check: daca profesorul introduce sau nu saptamana la timp
+//         daca se introduce nota la timp, se preia saptamana din sistem
+//         altfel, se introduce de la tastatura
 
     }
 }

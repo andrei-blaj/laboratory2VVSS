@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+<student ID="">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="">
+<Nume>Blaj Andrei Sorin 2</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="12">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="23">
+<Nume>Bob</Nume>
+<Grupa>100</Grupa>
+</student>
+<student ID="13">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="24">
+<Nume>Bob</Nume>
+<Grupa>100</Grupa>
+</student>
+<student ID="abc">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="25">
+<Nume>Bob</Nume>
+<Grupa>901</Grupa>
+</student>
+<student ID="test">
+<Nume>Blaj Andrei Sorin 2</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="15">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="16">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="19">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="-">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
 <student ID="1">
 <Nume>Ana</Nume>
 <Grupa>221</Grupa>
@@ -7,10 +59,6 @@
 <student ID="2">
 <Nume>Maria</Nume>
 <Grupa>222</Grupa>
-</student>
-<student ID="abc">
-<Nume>Bob</Nume>
-<Grupa>931</Grupa>
 </student>
 <student ID="4">
 <Nume>Ion</Nume>
@@ -20,8 +68,8 @@
 <Nume>Bob</Nume>
 <Grupa>931</Grupa>
 </student>
-<student ID="-">
-<Nume>Bob</Nume>
+<student ID="21">
+<Nume>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</Nume>
 <Grupa>931</Grupa>
 </student>
 </Entitati>
