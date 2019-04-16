@@ -111,7 +111,7 @@ public class AppTest {
             finalLengthOfRepository++;
         }
 
-        Assert.assertTrue(initialLengthOfRepository == finalLengthOfRepository);
+        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
     }
 
     @Test
@@ -138,7 +138,7 @@ public class AppTest {
             finalLengthOfRepository++;
         }
 
-        Assert.assertTrue(initialLengthOfRepository == finalLengthOfRepository);
+        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
     }
 
     /*

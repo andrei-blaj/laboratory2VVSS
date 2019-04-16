@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+<student ID="">
+<Nume>Blaj Andrei Sorin 3</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="">
+<Nume>Blaj Andrei Sorin 2</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="23">
+<Nume>Bob</Nume>
+<Grupa>100</Grupa>
+</student>
+<student ID="24">
+<Nume>Bob</Nume>
+<Grupa>100</Grupa>
+</student>
+<student ID="25">
+<Nume>Bob</Nume>
+<Grupa>901</Grupa>
+</student>
+<student ID="test">
+<Nume>Blaj Andrei Sorin 2</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="16">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="7">
+<Nume>Bob</Nume>
+<Grupa>931</Grupa>
+</student>
+<student ID="19">
+<Nume/>
+<Grupa>931</Grupa>
+</student>
+<student ID="21">
+<Nume>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</Nume>
+<Grupa>931</Grupa>
+</student>
+</Entitati>
