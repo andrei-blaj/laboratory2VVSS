@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+<tema ID="11">
+<Descriere>Test</Descriere>
+<Deadline>0</Deadline>
+<Startline>0</Startline>
+</tema>
+<tema ID="">
+<Descriere>Test description</Descriere>
+<Deadline>8</Deadline>
+<Startline>2</Startline>
+</tema>
+<tema ID="">
+<Descriere>Test description</Descriere>
+<Deadline>8</Deadline>
+<Startline>2</Startline>
+</tema>
 <tema ID="1">
 <Descriere>File</Descriere>
 <Deadline>7</Deadline>
@@ -14,6 +29,11 @@
 <Descriere>gui</Descriere>
 <Deadline>9</Deadline>
 <Startline>7</Startline>
+</tema>
+<tema ID="abc">
+<Descriere>Test description</Descriere>
+<Deadline>8</Deadline>
+<Startline>2</Startline>
 </tema>
 <tema ID="4">
 <Descriere>test</Descriere>

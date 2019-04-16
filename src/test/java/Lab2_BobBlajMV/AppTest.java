@@ -32,7 +32,7 @@ public class AppTest {
             }
         };
 
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
         studentFileRepository.save(student);
 
         Student studentFound = studentFileRepository.findOne("7");
@@ -53,7 +53,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
         studentFileRepository.save(student1);
         studentFileRepository.save(student2);
 
@@ -71,7 +71,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         int initialLengthOfRepository = 0;
         for (Student currentStudent : studentFileRepository.findAll()) {
@@ -97,7 +97,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         int initialLengthOfRepository = 0;
         for (Student currentStudent : studentFileRepository.findAll()) {
@@ -124,7 +124,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         int initialLengthOfRepository = 0;
         for (Student currentStudent : studentFileRepository.findAll()) {
@@ -152,7 +152,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("16", null, 931);
         studentFileRepository.save(student);
@@ -169,7 +169,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("19", "", 931);
         studentFileRepository.save(student);
@@ -186,7 +186,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("21", "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn", 931);
         studentFileRepository.save(student);
@@ -206,7 +206,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("23", "Bob", 100);
         studentFileRepository.save(student);
@@ -223,7 +223,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("24", "Bob", 100);
         studentFileRepository.save(student);
@@ -240,7 +240,7 @@ public class AppTest {
 
             }
         };
-        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "/Users/andrei/IdeaProjects/_931_Lab2_BobBlaj/src/main/java/Lab2_BobBlajMV/studenti.xml");
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validator, "studenti.xml");
 
         Student student = new Student("25", "Bob", 900 + 1);
         studentFileRepository.save(student);
@@ -250,9 +250,12 @@ public class AppTest {
     }
 
 
+    /*
+        Laboratory 3
+    */
+
 //    @Test
-//    public void addAssignment(){
-//        Tema assignment = new Tema("6", "Description", 8, 2);
+//    public void addAssignmentHappyFlow() {
 //
 //        Validator<Tema> validator = new Validator<Tema>() {
 //            @Override
@@ -260,34 +263,385 @@ public class AppTest {
 //
 //            }
 //        };
-//
 //        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("6", "Description", 8, 2);
 //        fileRepository.save(assignment);
 //
 //        Tema tema = fileRepository.findOne("6");
 //
-//        Assert.assertTrue(tema.getDeadline()==8);
+//        Assert.assertTrue(tema.getDeadline() == 8);
 //    }
 //
 //    @Test
-//    public void addAssignmentError(){
-//        Tema assignment = new Tema("6", "Description", 8, 2);
-//        Tema assignmentSecond = new Tema("6", "Description-second", 7, 4);
-//
-//
+//    public void addAssignmentWithDuplicateId() {
 //        Validator<Tema> validator = new Validator<Tema>() {
 //            @Override
 //            public void validate(Tema entity) throws ValidationException {
 //
 //            }
 //        };
-//
 //        TemaXMLRepository fileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("6", "Description", 8, 2);
+//        Tema assignmentSecond = new Tema("6", "Description-second", 7, 4);
 //        fileRepository.save(assignment);
 //        fileRepository.save(assignmentSecond);
 //
 //        Tema tema = fileRepository.findOne("6");
 //
-//        Assert.assertTrue(!(tema.getDeadline()==7));
+//        Assert.assertTrue(!(tema.getDeadline() == 7));
 //    }
+//
+//    @Test
+//    public void addAssignmentWithIdNull() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema(null, "Test description", 8, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithIdAsSomethingNotNumber() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("abc", "Test description", 8, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithIdAsEmptyString() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("", "Test description", 8, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDescriptionNull() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", null, 8, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDescriptionEmptyString() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "", 8, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDeadlineLessThan1() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 0, 0);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDeadlineGraterThan14() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 15, 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithStartlineArithExpr() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 6, 1 + 2);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithStartlineLessThan1() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 10, -1);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithStartlineGraterThan14() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 10, 15);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDeadlineArithExpr() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 1 + 5, 4);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithStartlineEqualWithDeadline() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 10, 10);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+//
+//    @Test
+//    public void addAssignmentWithDeadlineLessThanStartline() {
+//        Validator<Tema> validator = new Validator<Tema>() {
+//            @Override
+//            public void validate(Tema entity) throws ValidationException {
+//
+//            }
+//        };
+//        TemaXMLRepository assignmentFileRepository = new TemaXMLRepository(validator, "teme.xml");
+//
+//        Tema assignment = new Tema("11", "Test", 2, 5);
+//
+//        int initialLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            initialLengthOfRepository++;
+//        }
+//
+//        assignmentFileRepository.save(assignment);
+//
+//        int finalLengthOfRepository = 0;
+//        for (Tema currentAssign : assignmentFileRepository.findAll()) {
+//            finalLengthOfRepository++;
+//        }
+//
+//        Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
+//    }
+
 }

@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="60a6d464-d797-4450-99e4-0fbe61baf638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/studenti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/studenti.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab2_BobBlajMV/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab2_BobBlajMV/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/teme.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2_BobBlajMV/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,33 +27,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+            <state relative-caret-position="673">
+              <caret line="644" column="7" lean-forward="true" selection-start-line="644" selection-start-column="7" selection-end-line="644" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addStudentHappyFlow#0;class#AppTest#0" />
-                <element signature="class#753:900" />
-                <element signature="e#1286#2064#0" />
-                <element signature="class#1545:1692" />
-                <element signature="e#2106#2766#0" />
-                <element signature="class#2253:2400" />
-                <element signature="e#2944#3074#0" />
-                <element signature="class#3111:3258" />
-                <element signature="e#3925#4894#0" />
-                <element signature="class#4096:4243" />
-                <element signature="e#4030#4740#0" />
-                <element signature="class#4227:4374" />
-                <element signature="e#4576#5184#0" />
-                <element signature="class#4674:4821" />
-                <element signature="e#6155#6761#0" />
-                <element signature="class#6254:6401" />
-                <element signature="e#7248#7775#0" />
-                <element signature="class#7341:7488" />
-                <element signature="e#7900#8556#0" />
-                <element signature="class#8001:8148" />
-                <element signature="e#8563#8657#0" />
-                <element signature="class#8670:8817" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Tema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -64,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -78,7 +63,9 @@
       <find>$PROJECT_DIR$/teme.xml</find>
       <find>$PROJECT_DIR$/teme.xm</find>
       <find>teme.xml</find>
+      <find>$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/</find>
       <find>studenti.xml</find>
+      <find>$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555259383011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555429109291" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -322,7 +309,8 @@
       <workItem from="1553071183472" duration="4223000" />
       <workItem from="1553762873469" duration="457000" />
       <workItem from="1554276261649" duration="4340000" />
-      <workItem from="1555252758532" duration="5544000" />
+      <workItem from="1555252758532" duration="5961000" />
+      <workItem from="1555428152780" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1554279400125</created>
@@ -356,21 +344,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.04.14 at 19h 00m 01s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.04.14 at 19h 00m 12s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.04.14 at 19h 00m 41s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.04.14 at 19h 00m 52s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.04.14 at 19h 03m 54s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.04.14 at 19h 04m 02s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -386,15 +359,30 @@
     <history-entry file="AppTest - 2019.04.14 at 19h 10m 11s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_addStudentWithGroupAsArithExp - 2019.04.14 at 19h 29m 22s.xml">
+      <configuration name="AppTest.addStudentWithGroupAsArithExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addStudentWithGroupAsArithExp - 2019.04.14 at 19h 29m 28s.xml">
+      <configuration name="AppTest.addStudentWithGroupAsArithExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addStudentWithGroupAsArithExp - 2019.04.14 at 19h 29m 33s.xml">
+      <configuration name="AppTest.addStudentWithGroupAsArithExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.14 at 19h 29m 39s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.16 at 18h 26m 45s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14807000" />
+    <option name="totallyTimeSpent" value="16009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1996337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2244898" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16020408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19285715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,6 +412,7 @@
       <window_info anchor="right" id="Maven" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Tema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -485,13 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/TemaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -529,7 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/studenti.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/studenti.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/NotaXMLRepository.java">
@@ -660,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/repository/TemaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -686,35 +654,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/validation/TemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2_BobBlajMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+        <state relative-caret-position="673">
+          <caret line="644" column="7" lean-forward="true" selection-start-line="644" selection-start-column="7" selection-end-line="644" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addStudentHappyFlow#0;class#AppTest#0" />
-            <element signature="class#753:900" />
-            <element signature="e#1286#2064#0" />
-            <element signature="class#1545:1692" />
-            <element signature="e#2106#2766#0" />
-            <element signature="class#2253:2400" />
-            <element signature="e#2944#3074#0" />
-            <element signature="class#3111:3258" />
-            <element signature="e#3925#4894#0" />
-            <element signature="class#4096:4243" />
-            <element signature="e#4030#4740#0" />
-            <element signature="class#4227:4374" />
-            <element signature="e#4576#5184#0" />
-            <element signature="class#4674:4821" />
-            <element signature="e#6155#6761#0" />
-            <element signature="class#6254:6401" />
-            <element signature="e#7248#7775#0" />
-            <element signature="class#7341:7488" />
-            <element signature="e#7900#8556#0" />
-            <element signature="class#8001:8148" />
-            <element signature="e#8563#8657#0" />
-            <element signature="class#8670:8817" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/domain/Tema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2_BobBlajMV/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
