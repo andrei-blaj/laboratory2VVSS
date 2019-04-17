@@ -252,6 +252,7 @@ public class AppTest {
 
     /*
         Laboratory 3
+        Lab2_BobBlajMV.AppTest
     */
 
     @Test
@@ -589,6 +590,8 @@ public class AppTest {
 
         Assert.assertTrue(initialLengthOfRepository <= finalLengthOfRepository);
     }
+
+    // Lab2_BobBlajMV.AppTest
 
     @Test
     public void addAssignmentWithStartlineEqualWithDeadline() {
