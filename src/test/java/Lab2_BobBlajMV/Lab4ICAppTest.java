@@ -118,4 +118,86 @@ public class Lab4ICAppTest {
 
         Assert.assertTrue(gradeRepository.findOne(gradeId).getNota() == 8);
     }
+
+    // Lab4
+
+    @Test
+    public void addAssignmentTopDown(){
+        Validator<Student> studentValidator = new Validator<Student>() {
+            @Override
+            public void validate(Student entity) throws ValidationException {
+
+            }
+        };
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+
+        Student student = new Student("7", "Bob", 931);
+        studentFileRepository.save(student);
+
+        Validator<Tema> assignmentValidator = new Validator<Tema>() {
+            @Override
+            public void validate(Tema entity) throws ValidationException {
+
+            }
+        };
+        TemaXMLRepository fileRepository = new TemaXMLRepository(assignmentValidator, "teme.xml");
+
+        Tema assignment = new Tema("6", "Test assignment", 8, 6);
+        fileRepository.save(assignment);
+
+
+        Student studentFound = studentFileRepository.findOne("7");
+        Tema tema = fileRepository.findOne("6");
+
+        Assert.assertTrue(studentFound.getNume().equals("Bob"));
+        Assert.assertTrue(tema.getDeadline() == 8);
+    }
+
+    @Test
+    public void addGradeTopDown(){
+        Validator<Student> validatorStudent = new Validator<Student>() {
+            @Override
+            public void validate(Student entity) throws ValidationException {
+
+            }
+        };
+        StudentXMLRepository studentFileRepository = new StudentXMLRepository(validatorStudent, "studenti.xml");
+
+        Validator<Tema> validatorAssign = new Validator<Tema>() {
+            @Override
+            public void validate(Tema entity) throws ValidationException {
+
+            }
+        };
+        TemaXMLRepository fileRepository = new TemaXMLRepository(validatorAssign, "teme.xml");
+
+        Validator<Nota> validator = new Validator<Nota>() {
+            @Override
+            public void validate(Nota entity) throws ValidationException {
+
+            }
+        };
+        NotaXMLRepository gradeRepository = new NotaXMLRepository(validator, "note.xml");
+
+
+        Student student = new Student("7", "Bob", 931);
+        studentFileRepository.save(student);
+
+
+        Tema assignment = new Tema("6", "Test assignment", 8, 6);
+        fileRepository.save(assignment);
+
+
+        Pair<String, String> gradeId = new Pair<>("7", "8");
+        Nota currentGrade = new Nota(gradeId, 8, 8, "It is ok");
+        gradeRepository.save(currentGrade);
+
+
+        Assert.assertTrue(studentFileRepository.findOne("7").getNume().equals("Bob"));
+
+        Assert.assertTrue(fileRepository.findOne("6").getDeadline() == 8);
+
+        Assert.assertTrue(gradeRepository.findOne(gradeId).getNota() == 8);
+    }
+
 }
